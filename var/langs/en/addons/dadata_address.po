@@ -1,0 +1,20 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+
+msgctxt "Addons::name::dadata_address"
+msgid "Dadata Address"
+msgstr "Dadata Address"
+
+msgctxt "Addons::description::dadata_address"
+msgid "Address autocomplete using Dadata API"
+msgstr "Address autocomplete using Dadata API"
+
+msgctxt "Languages::block_dadata_address"
+msgid "Dadata Address Block"
+msgstr "Dadata Address Block"
+
+msgctxt "Languages::block_dadata_address_description"
+msgid "Address input field with Dadata autocomplete"
+msgstr "Address input field with Dadata autocomplete"
+
+

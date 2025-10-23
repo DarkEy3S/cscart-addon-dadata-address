@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>dadata_address</id>
+    <version>1.0</version>
+    <priority>100</priority>
+    <status>active</status>
+    <default_language>ru</default_language>
+    
+    <name>Dadata Address</name>
+    <description>Блок с автокомплитом адреса через DaData API</description>
+    
+    <authors>
+        <author>Your Name</author>
+    </authors>
+    
+    <settings layout="separate">
+        <sections>
+            <section id="general">
+                <name>Настройки DaData</name>
+                <items>
+                    <item id="dadata_token">
+                        <type>input</type>
+                        <name>DaData API токен</name>
+                        <default_value></default_value>
+                    </item>
+                    <item id="dadata_url">
+                        <type>input</type>
+                        <name>DaData API URL</name>
+                        <default_value>https://suggestions.dadata.ru/suggestions/api/4_1/rs/suggest/address</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    
+    <compatibility>
+        <core_version>
+            <min>4.0.1</min>
+        </core_version>
+    </compatibility>
+</addon>
+
