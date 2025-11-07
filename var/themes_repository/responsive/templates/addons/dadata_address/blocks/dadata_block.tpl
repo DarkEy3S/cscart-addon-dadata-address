@@ -18,6 +18,3 @@
     </button>
 </div>
 
-{style src="var/themes_repository/responsive/css/addons/dadata_address/styles.css"}
-{script src="js/addons/dadata_address/dadata_address.js"}
-
